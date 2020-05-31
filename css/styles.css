@@ -1,7 +1,36 @@
 body {
   font-family: 'Jost', sans-serif;
+  background-color: #fafafa;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+.titleSection {
+  background-color: #1565c0;
+  color: white;
 }
 
 .title {
   font-family: 'Nanum Myeongjo', serif;
+  font-size: 48px;
+}
+.subtitle {
+  font-size: 16px;
+}
+
+section {
+  margin: 0 0 16px 0;
+  padding: 16px;
+}
+
+.bodyContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlight {
+  padding: 3px;
+  font-size: 110%;
+  background-color: #ccff90;
 }
